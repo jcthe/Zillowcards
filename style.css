@@ -1,0 +1,74 @@
+.card {
+    width: 350px;
+    min-height: 230px;
+    border-bottom: 4px solid blue;
+    box-shadow:0 4px 8px 0 darkgrey; (0,0,0,0.2);
+    margin: 16px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 darkgrey; (0,0,0,0.2);
+}
+.picture-section {
+    height:150px;
+    position:relative;
+}
+.picture {
+    width:350px;
+    height:150px;
+}
+.update {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 4px 8px;
+}
+.company {
+    color: white;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 4px 8px;
+}
+.info {
+    padding: 8px;
+    color: black;
+}
+.listing {
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:4px;
+}
+.price {
+    font-size: 24px;
+    font-weight:bold;
+}
+.address {
+    font-weight:bold;
+    margin-bottom:4px;
+}
+.type {
+    font-size:12px;
+}
+.address {
+    font-weight:bold;
+    margin-bottom:4px;
+}
+.type {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+.star {
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 4px 8px;
+}
+.heart {
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 4px 8px;
+}
